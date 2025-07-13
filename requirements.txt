@@ -1,0 +1,9 @@
+PyYAML
+pyad
+hvac
+openpyxl
+pywin32
+pandas
+
+## pip install -r requirements.txt
+

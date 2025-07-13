@@ -1,0 +1,18 @@
+"""
+This is a configuration file for the Vault used in the AD User Manager project.
+It contains the URL, token, and the path to the secrets stored in Vault.
+It is essential to keep this file secure and not expose sensitive information.
+Make sure to replace the token with a valid one before using it in production.
+Do not commit sensitive information to version control.
+Create a secret in Vault at path like:
+secret/ad/config
+"""
+# File: Py_Automation/ad_user_manager/vault_config.yaml
+vault_config:
+  version: "1.0"
+  description: "Configuration for Vault integration in AD User Manager"
+
+vault:
+  url: "http://127.0.0.1:8200"
+  token: "s.examplevaulttoken123"
+  secret_path: "secret/ad/config"

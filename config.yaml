@@ -1,0 +1,3 @@
+ad_config:
+  ldap_server: "dc01.corp.local"
+  domain_user: "CORP\\adminuser"

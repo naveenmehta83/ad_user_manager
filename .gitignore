@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.Python
+build/
+dist/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE specific files
+.vscode/ # Only if you don't want to share VS Code settings
+.idea/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Testing & coverage
+.coverage
+.pytest_cache/
+
+# Logs
+*.log
+
+# Data files (if they are large or generated)
+*.csv
+*.xlsx

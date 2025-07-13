@@ -1,0 +1,17 @@
+users:
+  - action: create
+    cn: jdoe
+    display_name: "John Doe"
+    ou: "OU=Users,DC=corp,DC=local"
+    password: "Welcome123!"
+    add_to_groups:
+      - DevTeam
+      - QAGroup
+
+  - action: modify
+    cn: jdoe
+    attr: title
+    value: "Senior Developer"
+
+  - action: delete
+    cn: tempuser
